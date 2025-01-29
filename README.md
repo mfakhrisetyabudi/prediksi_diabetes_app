@@ -1,1 +1,1 @@
-# prediksi_diabetes.app
+# prediksi_diabetes_app
