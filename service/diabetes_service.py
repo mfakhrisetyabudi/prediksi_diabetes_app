@@ -42,9 +42,9 @@ class DiabetesService():
         response.diabetes = diabetes_prediction
         return response
 
-if __name__ == "__main__":
-    test_request = DiabetesRequest(gender="Female", age=44, hypertension=0, heart_disease=0, smoking_history=0, bmi=19.31, HbA1c_level=6.5 ,blood_glucose_level=200)
+# if __name__ == "__main__":
+#     test_request = DiabetesRequest(gender="Female", age=44, hypertension=0, heart_disease=0, smoking_history=0, bmi=19.31, HbA1c_level=6.5 ,blood_glucose_level=200)
     
-    diabetes_serv = DiabetesService()
-    res = diabetes_serv.predict_diabetes(request=test_request)
-    print(res.diabetes)
+#     diabetes_serv = DiabetesService()
+#     res = diabetes_serv.predict_diabetes(request=test_request)
+#     print(res.diabetes)
